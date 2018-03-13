@@ -1,0 +1,17 @@
+show.ftl：
+    登录 注册 灌水 退出登录：show 150行
+    包含了
+    	<#include "login.ftl">
+    	<#include "register.ftl">
+        <#include "rshow.ftl">
+        <#include "table.ftl">
+        <#include "post.ftl">
+
+content.ftl： 发帖的标题和内容
+login.ftl：用户登录
+page.ftl：分页用，首页，前一页，后一页，尾页
+post.ftl：发帖的提交 包含了<#include "content.ftl">
+register.ftl：用户注册
+rshow.ftl：点眼睛后进行的登录或者回帖
+table.ftl：更改行数，对用户帖子的显示
+top.ftl：网页顶端的链接
